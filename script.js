@@ -1,5 +1,5 @@
 
-let key="d4225d88528f4729b0183407251303";
+let key="042fe7ae40b5487b9e2160801253103";
 // let API = `http://api.weatherapi.com/v1/current.json?key=${key}&q=london`;
 
 async function getData()

@@ -1,5 +1,8 @@
 body{
-    background: linear-gradient(to top, #9335e5, #87a8e6);
+    /* background: linear-gradient(to top, #9335e5, #87a8e6); */
+    background-image: url(./image.png);
+    background-size: cover;
+    background-position: center;
     color: white;
     margin: 0;
     padding: 0;
@@ -209,8 +212,14 @@ body{
   }
 
 .custom1-bg {
+    background-image: url(./image\ copy\ 2.png);
     background-color: #3a9ddb;
 }
 .custom2-bg {
-    background-color: #47cea8;
+    background-color: rgb(21, 143, 243);
+}
+.custom7-bg{
+    background-image: url(./image\ copy.png);
+    background-size: cover;
+    background-position: center;
 }

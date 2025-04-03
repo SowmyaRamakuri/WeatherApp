@@ -1,6 +1,5 @@
 
 let key="042fe7ae40b5487b9e2160801253103";
-// let API = `http://api.weatherapi.com/v1/current.json?key=${key}&q=london`;
 
 async function getData()
 { 
@@ -10,7 +9,7 @@ async function getData()
     alert("please enter city name");
     return;
    }
-   let API = `http://api.weatherapi.com/v1/forecast.json?key=${key}&q=${city}&days=7`;
+   let API = `https://api.weatherapi.com/v1/forecast.json?key=${key}&q=${city}&days=7`;
 
    let res= await axios.get(API);
 
